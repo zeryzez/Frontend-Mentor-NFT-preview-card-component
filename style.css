@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    max-width: 275px;
+}
+
+.equilibrium{
+    align-items: center;
+    max-width: 275px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+button .equilibrium:hover{
+    background-image: url(./images/icon-view.svg);
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.title{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;   
+}
+
+.description{
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.PandT{
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.PandT h3{
+    display:contents ;
+    color: hsl(178, 100%, 50%);
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+
+.PandT #eth{
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+
+.PandT h4{
+    text-align: right;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 52px;
+}
+
+.PandT #clock{
+    vertical-align: bottom;
+}
+
+.line{
+    border-bottom-style: solid;
+    border-bottom-color: hsl(215, 51%, 70%);
+    border-bottom-width: 0.5px;
+    margin-bottom: 10px;
+}
+
+.creator{
+    display: inline-flex;
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.creator .creation{
+    margin-right: 2px;
+}
+
+.creator .avatar{
+    max-width: 25px;
+    margin-right: 15px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: white;
+
+}
+
+.creator .creatorname{
+    vertical-align: bottom;
+    color: white;
+    font-weight: normal;
+    font-family: "Outfit", sans-serif;
+}
+
+button {
+    border: none;
+    background-color: hsl(216, 50%, 16%);
+    text-decoration: none;
+}
+
+
+button  .creatorname:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+button .title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
